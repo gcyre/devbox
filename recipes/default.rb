@@ -6,3 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+ 
+ include_recipe "chocolatey::default"
+ include_recipe 'devbox::powershell4_install'
+ 
+ 
